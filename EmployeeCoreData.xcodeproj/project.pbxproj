@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		9F87A5641B74401A00783F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5631B74401A00783F4E /* main.m */; };
 		9F87A5671B74401A00783F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5661B74401A00783F4E /* AppDelegate.m */; };
-		9F87A56A1B74401A00783F4E /* EmployeeCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5681B74401A00783F4E /* EmployeeCoreData.xcdatamodeld */; };
-		9F87A56D1B74401A00783F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A56C1B74401A00783F4E /* ViewController.m */; };
 		9F87A5701B74401A00783F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F87A56E1B74401A00783F4E /* Main.storyboard */; };
 		9F87A5721B74401A00783F4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F87A5711B74401A00783F4E /* Images.xcassets */; };
 		9F87A5751B74401A00783F4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F87A5731B74401A00783F4E /* LaunchScreen.xib */; };
 		9F87A5811B74401A00783F4E /* EmployeeCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5801B74401A00783F4E /* EmployeeCoreDataTests.m */; };
+		9F87A58C1B7440EE00783F4E /* EmployeeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A58B1B7440EE00783F4E /* EmployeeListViewController.m */; };
+		9F87A58F1B7442C200783F4E /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A58E1B7442C200783F4E /* AddEmployeeViewController.m */; };
+		9F87A5921B7442D100783F4E /* EmployeeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5911B7442D100783F4E /* EmployeeDetailViewController.m */; };
+		9F87A5951B7442DD00783F4E /* EditEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A5941B7442DD00783F4E /* EditEmployeeViewController.m */; };
+		9F87A59D1B745E8A00783F4E /* EmployeeCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A59B1B745E8A00783F4E /* EmployeeCoreData.xcdatamodeld */; };
+		9F87A5A01B7468A200783F4E /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F87A59F1B7468A200783F4E /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +37,23 @@
 		9F87A5631B74401A00783F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F87A5651B74401A00783F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F87A5661B74401A00783F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F87A5691B74401A00783F4E /* EmployeeCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmployeeCoreData.xcdatamodel; sourceTree = "<group>"; };
-		9F87A56B1B74401A00783F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F87A56C1B74401A00783F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F87A56F1B74401A00783F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F87A5711B74401A00783F4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F87A5741B74401A00783F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9F87A57A1B74401A00783F4E /* EmployeeCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F87A57F1B74401A00783F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F87A5801B74401A00783F4E /* EmployeeCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmployeeCoreDataTests.m; sourceTree = "<group>"; };
+		9F87A58A1B7440EE00783F4E /* EmployeeListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeListViewController.h; sourceTree = "<group>"; };
+		9F87A58B1B7440EE00783F4E /* EmployeeListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeListViewController.m; sourceTree = "<group>"; };
+		9F87A58D1B7442C200783F4E /* AddEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		9F87A58E1B7442C200783F4E /* AddEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		9F87A5901B7442D100783F4E /* EmployeeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeDetailViewController.h; sourceTree = "<group>"; };
+		9F87A5911B7442D100783F4E /* EmployeeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeDetailViewController.m; sourceTree = "<group>"; };
+		9F87A5931B7442DD00783F4E /* EditEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEmployeeViewController.h; sourceTree = "<group>"; };
+		9F87A5941B7442DD00783F4E /* EditEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEmployeeViewController.m; sourceTree = "<group>"; };
+		9F87A59C1B745E8A00783F4E /* EmployeeCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmployeeCoreData.xcdatamodel; sourceTree = "<group>"; };
+		9F87A59E1B7468A200783F4E /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Employee.h; path = ../Employee.h; sourceTree = "<group>"; };
+		9F87A59F1B7468A200783F4E /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Employee.m; path = ../Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +97,12 @@
 			children = (
 				9F87A5651B74401A00783F4E /* AppDelegate.h */,
 				9F87A5661B74401A00783F4E /* AppDelegate.m */,
-				9F87A56B1B74401A00783F4E /* ViewController.h */,
-				9F87A56C1B74401A00783F4E /* ViewController.m */,
+				9F87A59A1B744D0700783F4E /* Employee Object */,
+				9F87A5961B7442F000783F4E /* View Controllers */,
 				9F87A56E1B74401A00783F4E /* Main.storyboard */,
+				9F87A59B1B745E8A00783F4E /* EmployeeCoreData.xcdatamodeld */,
 				9F87A5711B74401A00783F4E /* Images.xcassets */,
 				9F87A5731B74401A00783F4E /* LaunchScreen.xib */,
-				9F87A5681B74401A00783F4E /* EmployeeCoreData.xcdatamodeld */,
 				9F87A5611B74401A00783F4E /* Supporting Files */,
 			);
 			path = EmployeeCoreData;
@@ -120,6 +132,30 @@
 				9F87A57F1B74401A00783F4E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F87A5961B7442F000783F4E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F87A58D1B7442C200783F4E /* AddEmployeeViewController.h */,
+				9F87A58E1B7442C200783F4E /* AddEmployeeViewController.m */,
+				9F87A5901B7442D100783F4E /* EmployeeDetailViewController.h */,
+				9F87A5911B7442D100783F4E /* EmployeeDetailViewController.m */,
+				9F87A5931B7442DD00783F4E /* EditEmployeeViewController.h */,
+				9F87A5941B7442DD00783F4E /* EditEmployeeViewController.m */,
+				9F87A58A1B7440EE00783F4E /* EmployeeListViewController.h */,
+				9F87A58B1B7440EE00783F4E /* EmployeeListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9F87A59A1B744D0700783F4E /* Employee Object */ = {
+			isa = PBXGroup;
+			children = (
+				9F87A59E1B7468A200783F4E /* Employee.h */,
+				9F87A59F1B7468A200783F4E /* Employee.m */,
+			);
+			name = "Employee Object";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,9 +258,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F87A56A1B74401A00783F4E /* EmployeeCoreData.xcdatamodeld in Sources */,
+				9F87A59D1B745E8A00783F4E /* EmployeeCoreData.xcdatamodeld in Sources */,
+				9F87A5921B7442D100783F4E /* EmployeeDetailViewController.m in Sources */,
 				9F87A5671B74401A00783F4E /* AppDelegate.m in Sources */,
-				9F87A56D1B74401A00783F4E /* ViewController.m in Sources */,
+				9F87A58F1B7442C200783F4E /* AddEmployeeViewController.m in Sources */,
+				9F87A58C1B7440EE00783F4E /* EmployeeListViewController.m in Sources */,
+				9F87A5A01B7468A200783F4E /* Employee.m in Sources */,
+				9F87A5951B7442DD00783F4E /* EditEmployeeViewController.m in Sources */,
 				9F87A5641B74401A00783F4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +396,7 @@
 				INFOPLIST_FILE = EmployeeCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -366,6 +407,7 @@
 				INFOPLIST_FILE = EmployeeCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -422,6 +464,7 @@
 				9F87A5861B74401A00783F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F87A5871B74401A00783F4E /* Build configuration list for PBXNativeTarget "EmployeeCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -430,16 +473,17 @@
 				9F87A5891B74401A00783F4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9F87A5681B74401A00783F4E /* EmployeeCoreData.xcdatamodeld */ = {
+		9F87A59B1B745E8A00783F4E /* EmployeeCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9F87A5691B74401A00783F4E /* EmployeeCoreData.xcdatamodel */,
+				9F87A59C1B745E8A00783F4E /* EmployeeCoreData.xcdatamodel */,
 			);
-			currentVersion = 9F87A5691B74401A00783F4E /* EmployeeCoreData.xcdatamodel */;
+			currentVersion = 9F87A59C1B745E8A00783F4E /* EmployeeCoreData.xcdatamodel */;
 			path = EmployeeCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
